@@ -76,7 +76,7 @@ const messageFunc = (e) => {
   message = {
     type: "text",
     // text: userMessage,
-    text: "cicd_test",
+    text: "update lambda function automatically",
   };
 
   //「こんにちは」というメッセージが送られてきたら「Hello World」と返信して、「おはよう」と送られてきおたら「Good Morning!!」と返信するメッセージを作成
