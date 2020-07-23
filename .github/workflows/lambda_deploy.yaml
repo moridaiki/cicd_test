@@ -11,8 +11,8 @@ jobs:
       - name: checkout source code
         uses: actions/checkout@v2
       - run: chmod u+x *
-      - run: ls -a | echo
       - run: zip -r /tmp/lambda_function.zip *
+      - run: chmod +r /tmp/lambda_function.zip
       - name: default deploy
         uses: appleboy/lambda-action@master
         with:
