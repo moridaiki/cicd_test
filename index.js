@@ -26,8 +26,7 @@ exports.handler = (event, context) => {
       switch (event.type) {
         //メッセージイベント
         case "message":
-          //   message = messageFunc(event);
-          message = "cicd_test";
+          message = messageFunc(event);
           break;
         //フォローイベント
         /*case "follow":
@@ -76,7 +75,8 @@ const messageFunc = (e) => {
   let message;
   message = {
     type: "text",
-    text: userMessage,
+    // text: userMessage,
+    test: "cicd_test",
   };
 
   //「こんにちは」というメッセージが送られてきたら「Hello World」と返信して、「おはよう」と送られてきおたら「Good Morning!!」と返信するメッセージを作成
