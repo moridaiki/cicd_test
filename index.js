@@ -76,7 +76,7 @@ const messageFunc = (e) => {
   message = {
     type: "text",
     // text: userMessage,
-    test: "cicd_test",
+    text: "cicd_test",
   };
 
   //「こんにちは」というメッセージが送られてきたら「Hello World」と返信して、「おはよう」と送られてきおたら「Good Morning!!」と返信するメッセージを作成
