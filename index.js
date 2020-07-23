@@ -27,7 +27,7 @@ exports.handler = (event, context) => {
         //メッセージイベント
         case "message":
           //   message = messageFunc(event);
-          message = "test";
+          message = "cicd_test";
           break;
         //フォローイベント
         /*case "follow":
