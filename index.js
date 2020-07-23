@@ -26,7 +26,8 @@ exports.handler = (event, context) => {
       switch (event.type) {
         //メッセージイベント
         case "message":
-          message = messageFunc(event);
+          //   message = messageFunc(event);
+          message = "test";
           break;
         //フォローイベント
         /*case "follow":
